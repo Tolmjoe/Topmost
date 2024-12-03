@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: linear-gradient(135deg, #c0e0d1, #ffffff);
+    color: #008000;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+.exp-btn {
+    background: #add8e6;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.exp-btn:hover {
+    background: #2b259abe;
+    transform: scale(1.05);
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #ffffff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #0000001a;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #004080;
+}
+
+/* Products Section */
+.products-section {
+    background: #f0f8ff;
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+.products-section h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px #0000001a;
+    width: 250px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+/* Strength Section */
+.strength-section {
+    padding: 50px 20px;
+    background: #ffffff;
+    text-align: center;
+    color:#004080;
+}
+
+.strength-section h2 {
+    margin-bottom: 1rem;
+}
+
+.strength-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.strength-item {
+    background: #004080bf;
+    color:#ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 10px #0000001a;
+}
+
+.strength-item:hover {
+    background-color:#021d38dd;
+    width: 250px;
+    transition: 0.8s;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 10px 10px;
+    text-align: center;
+    background: #03407dad;
+    color: #ffffff;
+}
+
+.contact-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #00800036;
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+}
